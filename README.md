@@ -8,3 +8,8 @@ Consequences:
 1. **Provides hooks for subclasses.** Creating objects inside a class with a factory method is always more flexible than creating an object directly. Factory Method gives subclasses a hook for providing an extended version of an object.
 2. **Connects parallel class hierarchies.** In the examples we've considered so far, the factory method is only called by Creators. But this doesn't have to be the case; clients can find factory methods useful, especially in the case of parallel class hierarchies.
 
+##### Structure of Factory Method 
+<img width="806" alt="Screenshot 2022-08-17 at 1 05 24 AM" src="https://user-images.githubusercontent.com/26532939/184966852-6cae41fd-aa47-4ec0-a4aa-9a1291ead893.png">
+
+
+Referenced from GoF book
